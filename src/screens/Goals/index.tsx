@@ -6,7 +6,9 @@ export function Goals() {
     return (
         <Container>
 
-            <Header/>
+            <Header
+                title='Goals'
+            />
         </Container>
     )
 }
