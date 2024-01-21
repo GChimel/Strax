@@ -1,9 +1,9 @@
-import styled from 'styled-components/native';
+import styled, {css} from 'styled-components/native';
 
 export const Container = styled.View`
     width: 100%;
-    
-    flex-direction: row;
+
+    margin-top: 40px; /*ALTERAR FUTURAMENTE POR UMA MANEIRA MAIS EFICIENTE*/
     align-items: center;
     justify-content: center;
 
@@ -11,6 +11,14 @@ export const Container = styled.View`
 `;
 
 export const Logo = styled.Image`
-    max-width: 100px;
-    max-height: 150px;
+   width: 95px;
+   height: 40px;
+`;
+
+export const Title = styled.Text`
+    ${({theme}) => css`
+        color: ${theme.COLORS.WHITE};
+        font-size: ${theme.FONT_SIZE.LG}px;
+        font-family: ${theme.FONT_FAMILY.BOLD};
+    `}
 `;
