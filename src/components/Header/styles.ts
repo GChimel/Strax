@@ -3,7 +3,6 @@ import styled, {css} from 'styled-components/native';
 export const Container = styled.View`
     width: 100%;
 
-    margin-top: 40px; /*ALTERAR FUTURAMENTE POR UMA MANEIRA MAIS EFICIENTE*/
     align-items: center;
     justify-content: center;
 
