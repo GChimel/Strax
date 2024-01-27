@@ -2,6 +2,7 @@ import { Container, Form } from './styles';
 
 import { Header } from '../../components/Header';
 import { GoalsCard } from '../../components/GoalsCard';
+import { Button } from '../../components/Button';
 
 export function Goals() {
     return (
@@ -23,6 +24,10 @@ export function Goals() {
                     savings='R$3.000,00'
                 />
             </Form>
+
+            <Button
+                title='New Goal'
+            />
         </Container>
     )
 }
