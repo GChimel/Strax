@@ -9,5 +9,14 @@ export const Container = styled(SafeAreaView)`
 
 export const Form = styled.View`
     flex: 1;
-    justify-content: center;
+    margin-top: 10px;
+`;
+
+export const DeadlineContent = styled.View`
+    width: 100%;
+
+    flex-direction: row;
+    
+    justify-content: space-between;
+    flex-direction: row;
 `;
